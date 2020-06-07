@@ -1,0 +1,21 @@
+{
+  "name": "@hacksocnotts/migrate-site-to-gatsby",
+  "version": "1.0.0",
+  "description": "CLI For migrating HackSoc website got Gatsby.js",
+  "bin": {
+    "@hacksocnotts/migrate": "bin/migrate-hacksoc-to-gatsby",
+    "migrate-hacksoc-to-gatsby": "bin/migrate-hacksoc-to-gatsby"
+  },
+  "private": true,
+  "author": "Aaron Osher <git@aaronosher.io>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.1.0",
+    "listr": "^0.14.3",
+    "moment": "^2.26.0",
+    "ora": "^4.0.4",
+    "yaml": "^1.10.0"
+  }
+}

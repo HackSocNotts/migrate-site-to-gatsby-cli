@@ -1,0 +1,4 @@
+#!/usr/bin/env/node --unhandled-rejections=none
+
+require = require("esm")(module);
+require("../src/migrate-to-gatsby").cli(process.argv);
